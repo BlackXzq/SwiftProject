@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782A0804C5484FD703A905AC /* Pods_AJPlusOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9079C648A77E6FD66E014999 /* Pods_AJPlusOCR.framework */; };
+		B6C39EB1DFDD2938509B2282 /* Pods_AJPlusOCRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7163055B124F1545DC9718 /* Pods_AJPlusOCRTests.framework */; };
 		C185987C2006FF1C00A4AA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185987B2006FF1C00A4AA63 /* AppDelegate.swift */; };
 		C18598832006FF1C00A4AA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18598822006FF1C00A4AA63 /* Assets.xcassets */; };
 		C18598862006FF1C00A4AA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18598842006FF1C00A4AA63 /* LaunchScreen.storyboard */; };
 		C18598912006FF1C00A4AA63 /* AJPlusOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18598902006FF1C00A4AA63 /* AJPlusOCRTests.swift */; };
 		C185989C2006FF1C00A4AA63 /* AJPlusOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185989B2006FF1C00A4AA63 /* AJPlusOCRUITests.swift */; };
-		C18598AA200700D400A4AA63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18598A9200700D400A4AA63 /* LoginViewController.swift */; };
+		C1AA019920087F4500039585 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019820087F4500039585 /* BaseViewController.swift */; };
+		C1AA019B20087F6000039585 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019A20087F6000039585 /* BaseView.swift */; };
+		C1AA01A020089FF800039585 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019F20089FF800039585 /* LoginViewController.swift */; };
+		DAB3C4BBE0668D1FEB972A37 /* Pods_AJPlusOCRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B3806A977533C34502E785 /* Pods_AJPlusOCRUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201E4308A20B583E58BBE2A8 /* Pods-AJPlusOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR.release.xcconfig"; sourceTree = "<group>"; };
+		26B3806A977533C34502E785 /* Pods_AJPlusOCRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7163055B124F1545DC9718 /* Pods_AJPlusOCRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F095C68C9972401AB41612F /* Pods-AJPlusOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR.debug.xcconfig"; sourceTree = "<group>"; };
+		9079C648A77E6FD66E014999 /* Pods_AJPlusOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E93FD6915A6364F9077083 /* Pods-AJPlusOCRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A14D6D68D2A04E683B4A396E /* Pods-AJPlusOCRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests.release.xcconfig"; sourceTree = "<group>"; };
 		C18598782006FF1C00A4AA63 /* AJPlusOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJPlusOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C185987B2006FF1C00A4AA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C18598822006FF1C00A4AA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +56,11 @@
 		C18598972006FF1C00A4AA63 /* AJPlusOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJPlusOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C185989B2006FF1C00A4AA63 /* AJPlusOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJPlusOCRUITests.swift; sourceTree = "<group>"; };
 		C185989D2006FF1C00A4AA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C18598A9200700D400A4AA63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C1AA019820087F4500039585 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C1AA019A20087F6000039585 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C1AA019F20089FF800039585 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9C5382FD6130C4ECACD11EA /* Pods-AJPlusOCRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF1CC8C48AD017162DDA21C7 /* Pods-AJPlusOCRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782A0804C5484FD703A905AC /* Pods_AJPlusOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C39EB1DFDD2938509B2282 /* Pods_AJPlusOCRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB3C4BBE0668D1FEB972A37 /* Pods_AJPlusOCRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E3FBD7713E82726E3670613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F095C68C9972401AB41612F /* Pods-AJPlusOCR.debug.xcconfig */,
+				201E4308A20B583E58BBE2A8 /* Pods-AJPlusOCR.release.xcconfig */,
+				A0E93FD6915A6364F9077083 /* Pods-AJPlusOCRTests.debug.xcconfig */,
+				A14D6D68D2A04E683B4A396E /* Pods-AJPlusOCRTests.release.xcconfig */,
+				FF1CC8C48AD017162DDA21C7 /* Pods-AJPlusOCRUITests.debug.xcconfig */,
+				E9C5382FD6130C4ECACD11EA /* Pods-AJPlusOCRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C185986F2006FF1C00A4AA63 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +111,8 @@
 				C185988F2006FF1C00A4AA63 /* AJPlusOCRTests */,
 				C185989A2006FF1C00A4AA63 /* AJPlusOCRUITests */,
 				C18598792006FF1C00A4AA63 /* Products */,
+				4E3FBD7713E82726E3670613 /* Pods */,
+				F1E1B04C989EBB851B359BB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +130,13 @@
 			isa = PBXGroup;
 			children = (
 				C185987B2006FF1C00A4AA63 /* AppDelegate.swift */,
-				C18598A9200700D400A4AA63 /* LoginViewController.swift */,
+				C1AA019220087E8600039585 /* Modules */,
+				C1AA019120087DB100039585 /* BaseClass */,
+				C1AA019320087E9B00039585 /* Model */,
+				C1AA019720087F0600039585 /* Category */,
+				C1AA019620087EEF00039585 /* Common */,
+				C1AA019520087ECB00039585 /* Constants */,
+				C1AA019420087EB300039585 /* Libs */,
 				C18598822006FF1C00A4AA63 /* Assets.xcassets */,
 				C18598842006FF1C00A4AA63 /* LaunchScreen.storyboard */,
 				C18598872006FF1C00A4AA63 /* Info.plist */,
@@ -122,6 +162,92 @@
 			path = AJPlusOCRUITests;
 			sourceTree = "<group>";
 		};
+		C1AA019120087DB100039585 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA019820087F4500039585 /* BaseViewController.swift */,
+				C1AA019A20087F6000039585 /* BaseView.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		C1AA019220087E8600039585 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA019D2008804600039585 /* Home */,
+				C1AA019C2008804600039585 /* Login */,
+				C1AA019E2008804600039585 /* PersonCenter */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C1AA019320087E9B00039585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AA019420087EB300039585 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		C1AA019520087ECB00039585 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C1AA019620087EEF00039585 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1AA019720087F0600039585 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C1AA019C2008804600039585 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA019F20089FF800039585 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C1AA019D2008804600039585 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C1AA019E2008804600039585 /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		F1E1B04C989EBB851B359BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9079C648A77E6FD66E014999 /* Pods_AJPlusOCR.framework */,
+				4E7163055B124F1545DC9718 /* Pods_AJPlusOCRTests.framework */,
+				26B3806A977533C34502E785 /* Pods_AJPlusOCRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C18598A02006FF1C00A4AA63 /* Build configuration list for PBXNativeTarget "AJPlusOCR" */;
 			buildPhases = (
+				B6FA109BE2CA3487F008004A /* [CP] Check Pods Manifest.lock */,
 				C18598742006FF1C00A4AA63 /* Sources */,
 				C18598752006FF1C00A4AA63 /* Frameworks */,
 				C18598762006FF1C00A4AA63 /* Resources */,
+				E1E8A1CD713EE6F00BB204AA /* [CP] Embed Pods Frameworks */,
+				CE723670C514C06C8DD30142 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C18598A32006FF1C00A4AA63 /* Build configuration list for PBXNativeTarget "AJPlusOCRTests" */;
 			buildPhases = (
+				7FCFF4EFC3BA582D4DA311F8 /* [CP] Check Pods Manifest.lock */,
 				C18598882006FF1C00A4AA63 /* Sources */,
 				C18598892006FF1C00A4AA63 /* Frameworks */,
 				C185988A2006FF1C00A4AA63 /* Resources */,
+				404C81EF3CCE8D30E9678689 /* [CP] Embed Pods Frameworks */,
+				5F49857DDC17FC5416DE34C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C18598A62006FF1C00A4AA63 /* Build configuration list for PBXNativeTarget "AJPlusOCRUITests" */;
 			buildPhases = (
+				472548D1A85B96DBCAB81826 /* [CP] Check Pods Manifest.lock */,
 				C18598932006FF1C00A4AA63 /* Sources */,
 				C18598942006FF1C00A4AA63 /* Frameworks */,
 				C18598952006FF1C00A4AA63 /* Resources */,
+				5705065D7BE6388779D150A0 /* [CP] Embed Pods Frameworks */,
+				671A31AFFA8A77880BE80DC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +385,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		404C81EF3CCE8D30E9678689 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		472548D1A85B96DBCAB81826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AJPlusOCRUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5705065D7BE6388779D150A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F49857DDC17FC5416DE34C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671A31AFFA8A77880BE80DC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCFF4EFC3BA582D4DA311F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AJPlusOCRTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FA109BE2CA3487F008004A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AJPlusOCR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE723670C514C06C8DD30142 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E8A1CD713EE6F00BB204AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C18598742006FF1C00A4AA63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18598AA200700D400A4AA63 /* LoginViewController.swift in Sources */,
+				C1AA01A020089FF800039585 /* LoginViewController.swift in Sources */,
+				C1AA019B20087F6000039585 /* BaseView.swift in Sources */,
 				C185987C2006FF1C00A4AA63 /* AppDelegate.swift in Sources */,
+				C1AA019920087F4500039585 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +709,7 @@
 		};
 		C18598A12006FF1C00A4AA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F095C68C9972401AB41612F /* Pods-AJPlusOCR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,6 +726,7 @@
 		};
 		C18598A22006FF1C00A4AA63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201E4308A20B583E58BBE2A8 /* Pods-AJPlusOCR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +743,7 @@
 		};
 		C18598A42006FF1C00A4AA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E93FD6915A6364F9077083 /* Pods-AJPlusOCRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,6 +761,7 @@
 		};
 		C18598A52006FF1C00A4AA63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14D6D68D2A04E683B4A396E /* Pods-AJPlusOCRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +779,7 @@
 		};
 		C18598A72006FF1C00A4AA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1CC8C48AD017162DDA21C7 /* Pods-AJPlusOCRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +796,7 @@
 		};
 		C18598A82006FF1C00A4AA63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C5382FD6130C4ECACD11EA /* Pods-AJPlusOCRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_AJPlusOCRTests {
+  umbrella header "Pods-AJPlusOCRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

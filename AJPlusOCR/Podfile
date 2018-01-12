@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'AJPlusOCR' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'Alamofire', '4.6.0'
+pod 'Kingfisher', '4.6.1'
+pod 'SnapKit', '4.0.0’
+#json转model
+pod 'SwiftyJSON', '4.0.0'
+#json转model
+pod 'HandyJSON', '4.0.0-beta.1'
+#pod 'FDFullscreenPopGesture'
+#pod 'MBProgressHUD'
+#图片浏览器
+#数据库
+#pod 'RealmSwift', '3.0.2'
+#图片选择器
+#pod 'LLPhotoBrowser', '~> 1.0.5'
+#友盟统计
+#pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
+#键盘收起
+pod 'IQKeyboardManagerSwift', '5.0.7'
+#bug分析
+#pod 'Bugly'
+
+
+  target 'AJPlusOCRTests' do
+    inherit! :search_paths
+  end
+
+  target 'AJPlusOCRUITests' do
+    inherit! :search_paths
+  end
+
+end
