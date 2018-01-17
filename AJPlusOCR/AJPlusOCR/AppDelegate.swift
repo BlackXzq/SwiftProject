@@ -7,21 +7,40 @@
 //
 
 import UIKit
+import Alamofire
+import IQKeyboardManagerSwift
+import SHFullscreenPopGestureSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var isNetwork : Bool = false
+    var isNeedLogin: Bool = true
+    
+    let manager = NetworkReachabilityManager(host: "https://www.apple.com")
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        let loginCtl = LoginViewController()
-        let loginNav = UINavigationController(rootViewController: loginCtl)
+        /*环境切换 mode: producter 线上生产环境; staging:预发环境；tester：测试环境 developer 开发环境; personal 个人环境*/
+        AJDebugManager.shareHelper.switchMode(mode: .developer)
+        
+        checkLoginStatus()
+        
+        //初始化一些基础数据
+        appInit()
+        setupNetwork()
+        setMLInputDodgerConfig()
+        
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = loginNav
+        if isNeedLogin {
+            setRootLoginController()
+        } else {
+            setRootHomeController()
+        }
         self.window?.makeKeyAndVisible()
-        print("make=======")
+        
         return true
     }
 
@@ -49,4 +68,58 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+extension AppDelegate {
+    fileprivate func appInit() {
+        SHFullscreenPopGesture.configure()
+        AppUpdateManager.checkAppVersion()
+//        AppSDKConfigHelper.configUMengAnalyticsInfo() //配置UM统计
+    }
+    
+    
+    fileprivate func setMLInputDodgerConfig(){
+        //    统一键盘
+        IQKeyboardManager .sharedManager().enable = true
+        IQKeyboardManager .sharedManager().shouldResignOnTouchOutside = true
+    }
+    
+    func setupNetwork() {
+        NetworkReachability.reachability.networkReachability(manager!, reachabilityStatues: { (status) in
+            switch status {
+            case .notReachability :
+                printLog("无网")
+                self.isNetwork = false
+                
+            case .reachability:
+                printLog("有网")
+                self.isNetwork = true
+            }
+        })
+    }
+    
+     fileprivate func checkLoginStatus(){
+        //是否包含Token
+        let userModel = UserModel.loadUserInfo()
+        if ((userModel?.token) != nil){
+            isNeedLogin = false
+        }
+    }
+    
+    //  切换首页
+    func setRootHomeController() {
+        let homeCtl = HomeViewController()
+        let homeNav = AJNavigationViewController(rootViewController: homeCtl)
+        self.window?.rootViewController = homeNav
+        self.isNeedLogin = false
+    }
+    //切换登录页面
+    func setRootLoginController() {
+        let loginCtl = LoginViewController()
+        let loginNav = AJNavigationViewController(rootViewController: loginCtl)
+        self.window?.rootViewController = loginNav
+        self.isNeedLogin = true
+    }
+
+}
+
 

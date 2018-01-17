@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0450C184200DDD6C0083F0A2 /* ScanInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450C183200DDD6C0083F0A2 /* ScanInfoController.swift */; };
 		782A0804C5484FD703A905AC /* Pods_AJPlusOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9079C648A77E6FD66E014999 /* Pods_AJPlusOCR.framework */; };
+		95133EDD200CEB3800A9FA8C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95133EDC200CEB3800A9FA8C /* UIImage+Extension.swift */; };
+		9FC43B9E200F319F002F006D /* DealerSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC43B9D200F319F002F006D /* DealerSearchController.swift */; };
 		B6C39EB1DFDD2938509B2282 /* Pods_AJPlusOCRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7163055B124F1545DC9718 /* Pods_AJPlusOCRTests.framework */; };
 		C185987C2006FF1C00A4AA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185987B2006FF1C00A4AA63 /* AppDelegate.swift */; };
 		C18598832006FF1C00A4AA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18598822006FF1C00A4AA63 /* Assets.xcassets */; };
@@ -16,7 +19,47 @@
 		C185989C2006FF1C00A4AA63 /* AJPlusOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C185989B2006FF1C00A4AA63 /* AJPlusOCRUITests.swift */; };
 		C1AA019920087F4500039585 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019820087F4500039585 /* BaseViewController.swift */; };
 		C1AA019B20087F6000039585 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019A20087F6000039585 /* BaseView.swift */; };
-		C1AA01A020089FF800039585 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA019F20089FF800039585 /* LoginViewController.swift */; };
+		C1AA01A7200C41C400039585 /* LDBaseReauest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01A3200C41C400039585 /* LDBaseReauest.swift */; };
+		C1AA01A8200C41C400039585 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01A4200C41C400039585 /* NetworkReachability.swift */; };
+		C1AA01AB200C41FF00039585 /* CertificateTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01AA200C41FF00039585 /* CertificateTrust.swift */; };
+		C1AA01CA200C444900039585 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01C9200C444900039585 /* BaseModel.swift */; };
+		C1AA01CD200C49D600039585 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01CC200C49D600039585 /* UserModel.swift */; };
+		C1AA01CF200C4A0E00039585 /* ALMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01CE200C4A0E00039585 /* ALMacro.swift */; };
+		C1AA01D1200C4A5B00039585 /* UIColor+LDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01D0200C4A5B00039585 /* UIColor+LDExtension.swift */; };
+		C1AA01D3200C4A8800039585 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01D2200C4A8800039585 /* String+Extension.swift */; };
+		C1AA01D5200C4B0000039585 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01D4200C4B0000039585 /* Date+Extension.swift */; };
+		C1AA01DA200C55F200039585 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01D9200C55F200039585 /* UIView+Extension.swift */; };
+		C1AA01DC200C6FB400039585 /* AJAlterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01DB200C6FB400039585 /* AJAlterView.swift */; };
+		C1AA01E0200C725D00039585 /* AJOfflineDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01DF200C725D00039585 /* AJOfflineDataCache.swift */; };
+		C1AA01EE200C77AE00039585 /* AppSDKConfigHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01EC200C77AE00039585 /* AppSDKConfigHelper.swift */; };
+		C1AA01EF200C77AE00039585 /* AppUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01ED200C77AE00039585 /* AppUpdateManager.swift */; };
+		C1AA01F2200C77D700039585 /* CommonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01F1200C77D700039585 /* CommonObject.swift */; };
+		C1AA01F6200C909700039585 /* AJDebugManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01F5200C909700039585 /* AJDebugManager.swift */; };
+		C1AA01F8200C923900039585 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01F7200C923900039585 /* HomeViewController.swift */; };
+		C1AA01FC200C95E100039585 /* AJNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01FB200C95E100039585 /* AJNavigationViewController.swift */; };
+		C1AA01FE200C963C00039585 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA01FD200C963C00039585 /* UIViewController+Extension.swift */; };
+		C1AA020D200C972B00039585 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0200200C972B00039585 /* DebugViewController.swift */; };
+		C1AA020E200C972B00039585 /* ModifyPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0201200C972B00039585 /* ModifyPassViewController.swift */; };
+		C1AA020F200C972B00039585 /* ModifyPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1AA0202200C972B00039585 /* ModifyPassViewController.xib */; };
+		C1AA0210200C972B00039585 /* PersonCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0203200C972B00039585 /* PersonCenterViewController.swift */; };
+		C1AA0211200C972B00039585 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0204200C972B00039585 /* SetViewController.swift */; };
+		C1AA0212200C972B00039585 /* LineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0206200C972B00039585 /* LineItemCell.swift */; };
+		C1AA0213200C972B00039585 /* LineItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0207200C972B00039585 /* LineItemView.swift */; };
+		C1AA0214200C972B00039585 /* PersonHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0208200C972B00039585 /* PersonHeadView.swift */; };
+		C1AA0215200C972B00039585 /* PersonItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0209200C972B00039585 /* PersonItemCell.swift */; };
+		C1AA0216200C972B00039585 /* ModifyPasswordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA020B200C972B00039585 /* ModifyPasswordVM.swift */; };
+		C1AA0217200C972B00039585 /* SetLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA020C200C972B00039585 /* SetLineItem.swift */; };
+		C1AA021B200C98BF00039585 /* AJServerVlaue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA021A200C98BF00039585 /* AJServerVlaue.swift */; };
+		C1AA0221200C9DFC00039585 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0220200C9DFC00039585 /* SubmitButton.swift */; };
+		C1AA0223200CA04800039585 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0222200CA04800039585 /* UITextField+Extension.swift */; };
+		C1AA0225200D8B7A00039585 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0224200D8B7A00039585 /* Then.swift */; };
+		C1AA0227200D8B8B00039585 /* AJProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0226200D8B8B00039585 /* AJProgressHud.swift */; };
+		C1AA022C200DC08200039585 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA022B200DC08200039585 /* LoginViewController.swift */; };
+		C1AA022E200DCCAE00039585 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA022D200DCCAE00039585 /* RegisterViewController.swift */; };
+		C1AA0230200DF63F00039585 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA022F200DF63F00039585 /* LoginVM.swift */; };
+		C1AA0232200DFB9300039585 /* LoginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0231200DFB9300039585 /* LoginConfig.swift */; };
+		C1AA0234200F13FE00039585 /* AddCarInfoToStoreVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0233200F13FE00039585 /* AddCarInfoToStoreVM.swift */; };
+		C1AA0236200F1B2500039585 /* GetDealerListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA0235200F1B2500039585 /* GetDealerListVM.swift */; };
 		DAB3C4BBE0668D1FEB972A37 /* Pods_AJPlusOCRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B3806A977533C34502E785 /* Pods_AJPlusOCRUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,11 +81,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0450C183200DDD6C0083F0A2 /* ScanInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanInfoController.swift; sourceTree = "<group>"; };
 		201E4308A20B583E58BBE2A8 /* Pods-AJPlusOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR.release.xcconfig"; sourceTree = "<group>"; };
 		26B3806A977533C34502E785 /* Pods_AJPlusOCRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7163055B124F1545DC9718 /* Pods_AJPlusOCRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F095C68C9972401AB41612F /* Pods-AJPlusOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCR/Pods-AJPlusOCR.debug.xcconfig"; sourceTree = "<group>"; };
 		9079C648A77E6FD66E014999 /* Pods_AJPlusOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJPlusOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95133EDC200CEB3800A9FA8C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9FC43B9D200F319F002F006D /* DealerSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DealerSearchController.swift; path = ../DealerSearchController.swift; sourceTree = "<group>"; };
 		A0E93FD6915A6364F9077083 /* Pods-AJPlusOCRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A14D6D68D2A04E683B4A396E /* Pods-AJPlusOCRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRTests/Pods-AJPlusOCRTests.release.xcconfig"; sourceTree = "<group>"; };
 		C18598782006FF1C00A4AA63 /* AJPlusOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJPlusOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +104,48 @@
 		C185989D2006FF1C00A4AA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1AA019820087F4500039585 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C1AA019A20087F6000039585 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		C1AA019F20089FF800039585 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C1AA01A3200C41C400039585 /* LDBaseReauest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDBaseReauest.swift; sourceTree = "<group>"; };
+		C1AA01A4200C41C400039585 /* NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		C1AA01AA200C41FF00039585 /* CertificateTrust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateTrust.swift; sourceTree = "<group>"; };
+		C1AA01C8200C438600039585 /* AJPlusOCR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJPlusOCR-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1AA01C9200C444900039585 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		C1AA01CC200C49D600039585 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C1AA01CE200C4A0E00039585 /* ALMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALMacro.swift; sourceTree = "<group>"; };
+		C1AA01D0200C4A5B00039585 /* UIColor+LDExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+LDExtension.swift"; sourceTree = "<group>"; };
+		C1AA01D2200C4A8800039585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C1AA01D4200C4B0000039585 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C1AA01D9200C55F200039585 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C1AA01DB200C6FB400039585 /* AJAlterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJAlterView.swift; sourceTree = "<group>"; };
+		C1AA01DF200C725D00039585 /* AJOfflineDataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJOfflineDataCache.swift; sourceTree = "<group>"; };
+		C1AA01EC200C77AE00039585 /* AppSDKConfigHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSDKConfigHelper.swift; sourceTree = "<group>"; };
+		C1AA01ED200C77AE00039585 /* AppUpdateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUpdateManager.swift; sourceTree = "<group>"; };
+		C1AA01F1200C77D700039585 /* CommonObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonObject.swift; sourceTree = "<group>"; };
+		C1AA01F5200C909700039585 /* AJDebugManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJDebugManager.swift; sourceTree = "<group>"; };
+		C1AA01F7200C923900039585 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C1AA01FB200C95E100039585 /* AJNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJNavigationViewController.swift; sourceTree = "<group>"; };
+		C1AA01FD200C963C00039585 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C1AA0200200C972B00039585 /* DebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		C1AA0201200C972B00039585 /* ModifyPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyPassViewController.swift; sourceTree = "<group>"; };
+		C1AA0202200C972B00039585 /* ModifyPassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyPassViewController.xib; sourceTree = "<group>"; };
+		C1AA0203200C972B00039585 /* PersonCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterViewController.swift; sourceTree = "<group>"; };
+		C1AA0204200C972B00039585 /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		C1AA0206200C972B00039585 /* LineItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineItemCell.swift; sourceTree = "<group>"; };
+		C1AA0207200C972B00039585 /* LineItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineItemView.swift; sourceTree = "<group>"; };
+		C1AA0208200C972B00039585 /* PersonHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonHeadView.swift; sourceTree = "<group>"; };
+		C1AA0209200C972B00039585 /* PersonItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonItemCell.swift; sourceTree = "<group>"; };
+		C1AA020B200C972B00039585 /* ModifyPasswordVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyPasswordVM.swift; sourceTree = "<group>"; };
+		C1AA020C200C972B00039585 /* SetLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLineItem.swift; sourceTree = "<group>"; };
+		C1AA021A200C98BF00039585 /* AJServerVlaue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJServerVlaue.swift; sourceTree = "<group>"; };
+		C1AA0220200C9DFC00039585 /* SubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		C1AA0222200CA04800039585 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		C1AA0224200D8B7A00039585 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		C1AA0226200D8B8B00039585 /* AJProgressHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressHud.swift; sourceTree = "<group>"; };
+		C1AA022B200DC08200039585 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C1AA022D200DCCAE00039585 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C1AA022F200DF63F00039585 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		C1AA0231200DFB9300039585 /* LoginConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginConfig.swift; sourceTree = "<group>"; };
+		C1AA0233200F13FE00039585 /* AddCarInfoToStoreVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarInfoToStoreVM.swift; sourceTree = "<group>"; };
+		C1AA0235200F1B2500039585 /* GetDealerListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDealerListVM.swift; sourceTree = "<group>"; };
 		E9C5382FD6130C4ECACD11EA /* Pods-AJPlusOCRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF1CC8C48AD017162DDA21C7 /* Pods-AJPlusOCRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJPlusOCRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJPlusOCRUITests/Pods-AJPlusOCRUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +178,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0450C181200DDCE90083F0A2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9FC43B9D200F319F002F006D /* DealerSearchController.swift */,
+				C1AA01F7200C923900039585 /* HomeViewController.swift */,
+				0450C183200DDD6C0083F0A2 /* ScanInfoController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		0450C182200DDD050083F0A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4E3FBD7713E82726E3670613 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +240,8 @@
 				C1AA019720087F0600039585 /* Category */,
 				C1AA019620087EEF00039585 /* Common */,
 				C1AA019520087ECB00039585 /* Constants */,
-				C1AA019420087EB300039585 /* Libs */,
+				C1AA021E200C9BA300039585 /* Others */,
+				C1AA019420087EB300039585 /* Tools */,
 				C18598822006FF1C00A4AA63 /* Assets.xcassets */,
 				C18598842006FF1C00A4AA63 /* LaunchScreen.storyboard */,
 				C18598872006FF1C00A4AA63 /* Info.plist */,
@@ -167,6 +272,7 @@
 			children = (
 				C1AA019820087F4500039585 /* BaseViewController.swift */,
 				C1AA019A20087F6000039585 /* BaseView.swift */,
+				C1AA01FB200C95E100039585 /* AJNavigationViewController.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -184,20 +290,27 @@
 		C1AA019320087E9B00039585 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA01C9200C444900039585 /* BaseModel.swift */,
+				C1AA01F0200C77D700039585 /* RealMode */,
+				C1AA01CB200C49D600039585 /* UserModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C1AA019420087EB300039585 /* Libs */ = {
+		C1AA019420087EB300039585 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA01EB200C77AE00039585 /* AppUpdate */,
+				C1AA01A1200C41C400039585 /* NetWorkTools */,
 			);
-			path = Libs;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		C1AA019520087ECB00039585 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA01CE200C4A0E00039585 /* ALMacro.swift */,
+				C1AA021A200C98BF00039585 /* AJServerVlaue.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -205,6 +318,12 @@
 		C1AA019620087EEF00039585 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA01C8200C438600039585 /* AJPlusOCR-Bridging-Header.h */,
+				C1AA01DB200C6FB400039585 /* AJAlterView.swift */,
+				C1AA01DF200C725D00039585 /* AJOfflineDataCache.swift */,
+				C1AA0226200D8B8B00039585 /* AJProgressHud.swift */,
+				C1AA01F5200C909700039585 /* AJDebugManager.swift */,
+				C1AA0224200D8B7A00039585 /* Then.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -212,6 +331,13 @@
 		C1AA019720087F0600039585 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA0222200CA04800039585 /* UITextField+Extension.swift */,
+				C1AA01D0200C4A5B00039585 /* UIColor+LDExtension.swift */,
+				C1AA01D2200C4A8800039585 /* String+Extension.swift */,
+				C1AA01D4200C4B0000039585 /* Date+Extension.swift */,
+				C1AA01D9200C55F200039585 /* UIView+Extension.swift */,
+				95133EDC200CEB3800A9FA8C /* UIImage+Extension.swift */,
+				C1AA01FD200C963C00039585 /* UIViewController+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -219,7 +345,9 @@
 		C1AA019C2008804600039585 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				C1AA019F20089FF800039585 /* LoginViewController.swift */,
+				C1AA0229200DC05A00039585 /* VC */,
+				C1AA022A200DC05A00039585 /* View */,
+				C1AA0228200DC05A00039585 /* VM */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -227,6 +355,8 @@
 		C1AA019D2008804600039585 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0450C182200DDD050083F0A2 /* View */,
+				0450C181200DDCE90083F0A2 /* VC */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -234,8 +364,121 @@
 		C1AA019E2008804600039585 /* PersonCenter */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA01FF200C972B00039585 /* VC */,
+				C1AA0205200C972B00039585 /* View */,
+				C1AA020A200C972B00039585 /* VM */,
 			);
 			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		C1AA01A1200C41C400039585 /* NetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA01AA200C41FF00039585 /* CertificateTrust.swift */,
+				C1AA01A3200C41C400039585 /* LDBaseReauest.swift */,
+				C1AA01A4200C41C400039585 /* NetworkReachability.swift */,
+			);
+			path = NetWorkTools;
+			sourceTree = "<group>";
+		};
+		C1AA01CB200C49D600039585 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA01CC200C49D600039585 /* UserModel.swift */,
+			);
+			path = UserModel;
+			sourceTree = "<group>";
+		};
+		C1AA01EB200C77AE00039585 /* AppUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA01EC200C77AE00039585 /* AppSDKConfigHelper.swift */,
+				C1AA01ED200C77AE00039585 /* AppUpdateManager.swift */,
+			);
+			path = AppUpdate;
+			sourceTree = "<group>";
+		};
+		C1AA01F0200C77D700039585 /* RealMode */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA01F1200C77D700039585 /* CommonObject.swift */,
+			);
+			path = RealMode;
+			sourceTree = "<group>";
+		};
+		C1AA01FF200C972B00039585 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA0200200C972B00039585 /* DebugViewController.swift */,
+				C1AA0201200C972B00039585 /* ModifyPassViewController.swift */,
+				C1AA0202200C972B00039585 /* ModifyPassViewController.xib */,
+				C1AA0203200C972B00039585 /* PersonCenterViewController.swift */,
+				C1AA0204200C972B00039585 /* SetViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		C1AA0205200C972B00039585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA0206200C972B00039585 /* LineItemCell.swift */,
+				C1AA0207200C972B00039585 /* LineItemView.swift */,
+				C1AA0208200C972B00039585 /* PersonHeadView.swift */,
+				C1AA0209200C972B00039585 /* PersonItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AA020A200C972B00039585 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA020B200C972B00039585 /* ModifyPasswordVM.swift */,
+				C1AA020C200C972B00039585 /* SetLineItem.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		C1AA021E200C9BA300039585 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA021F200C9BA300039585 /* CommonView */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C1AA021F200C9BA300039585 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA0220200C9DFC00039585 /* SubmitButton.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		C1AA0228200DC05A00039585 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA022F200DF63F00039585 /* LoginVM.swift */,
+				C1AA0231200DFB9300039585 /* LoginConfig.swift */,
+				C1AA0233200F13FE00039585 /* AddCarInfoToStoreVM.swift */,
+				C1AA0235200F1B2500039585 /* GetDealerListVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		C1AA0229200DC05A00039585 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA022B200DC08200039585 /* LoginViewController.swift */,
+				C1AA022D200DCCAE00039585 /* RegisterViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		C1AA022A200DC05A00039585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F1E1B04C989EBB851B359BB5 /* Frameworks */ = {
@@ -325,6 +568,7 @@
 				TargetAttributes = {
 					C18598772006FF1C00A4AA63 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					C185988B2006FF1C00A4AA63 = {
@@ -364,6 +608,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AA020F200C972B00039585 /* ModifyPassViewController.xib in Resources */,
 				C18598862006FF1C00A4AA63 /* LaunchScreen.storyboard in Resources */,
 				C18598832006FF1C00A4AA63 /* Assets.xcassets in Resources */,
 			);
@@ -526,6 +771,10 @@
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SHFullscreenPopGestureSwift/SHFullscreenPopGestureSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -535,6 +784,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHFullscreenPopGestureSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -550,10 +803,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1AA01A020089FF800039585 /* LoginViewController.swift in Sources */,
+				95133EDD200CEB3800A9FA8C /* UIImage+Extension.swift in Sources */,
+				C1AA0236200F1B2500039585 /* GetDealerListVM.swift in Sources */,
+				C1AA01FE200C963C00039585 /* UIViewController+Extension.swift in Sources */,
+				C1AA0217200C972B00039585 /* SetLineItem.swift in Sources */,
+				C1AA01A8200C41C400039585 /* NetworkReachability.swift in Sources */,
+				C1AA021B200C98BF00039585 /* AJServerVlaue.swift in Sources */,
+				C1AA01FC200C95E100039585 /* AJNavigationViewController.swift in Sources */,
+				C1AA020D200C972B00039585 /* DebugViewController.swift in Sources */,
+				C1AA0221200C9DFC00039585 /* SubmitButton.swift in Sources */,
+				C1AA020E200C972B00039585 /* ModifyPassViewController.swift in Sources */,
+				C1AA01EF200C77AE00039585 /* AppUpdateManager.swift in Sources */,
+				C1AA01D5200C4B0000039585 /* Date+Extension.swift in Sources */,
+				C1AA022E200DCCAE00039585 /* RegisterViewController.swift in Sources */,
+				C1AA0214200C972B00039585 /* PersonHeadView.swift in Sources */,
+				C1AA01D1200C4A5B00039585 /* UIColor+LDExtension.swift in Sources */,
+				C1AA0230200DF63F00039585 /* LoginVM.swift in Sources */,
 				C1AA019B20087F6000039585 /* BaseView.swift in Sources */,
+				C1AA0216200C972B00039585 /* ModifyPasswordVM.swift in Sources */,
+				C1AA01D3200C4A8800039585 /* String+Extension.swift in Sources */,
+				C1AA01F8200C923900039585 /* HomeViewController.swift in Sources */,
+				C1AA01AB200C41FF00039585 /* CertificateTrust.swift in Sources */,
+				C1AA0223200CA04800039585 /* UITextField+Extension.swift in Sources */,
+				C1AA0210200C972B00039585 /* PersonCenterViewController.swift in Sources */,
 				C185987C2006FF1C00A4AA63 /* AppDelegate.swift in Sources */,
+				C1AA01DA200C55F200039585 /* UIView+Extension.swift in Sources */,
+				C1AA0227200D8B8B00039585 /* AJProgressHud.swift in Sources */,
+				C1AA01A7200C41C400039585 /* LDBaseReauest.swift in Sources */,
+				0450C184200DDD6C0083F0A2 /* ScanInfoController.swift in Sources */,
+				C1AA0232200DFB9300039585 /* LoginConfig.swift in Sources */,
+				C1AA022C200DC08200039585 /* LoginViewController.swift in Sources */,
+				9FC43B9E200F319F002F006D /* DealerSearchController.swift in Sources */,
+				C1AA01F6200C909700039585 /* AJDebugManager.swift in Sources */,
+				C1AA01DC200C6FB400039585 /* AJAlterView.swift in Sources */,
+				C1AA0215200C972B00039585 /* PersonItemCell.swift in Sources */,
+				C1AA0225200D8B7A00039585 /* Then.swift in Sources */,
+				C1AA01CA200C444900039585 /* BaseModel.swift in Sources */,
+				C1AA01CD200C49D600039585 /* UserModel.swift in Sources */,
+				C1AA01E0200C725D00039585 /* AJOfflineDataCache.swift in Sources */,
 				C1AA019920087F4500039585 /* BaseViewController.swift in Sources */,
+				C1AA01F2200C77D700039585 /* CommonObject.swift in Sources */,
+				C1AA0234200F13FE00039585 /* AddCarInfoToStoreVM.swift in Sources */,
+				C1AA0211200C972B00039585 /* SetViewController.swift in Sources */,
+				C1AA01EE200C77AE00039585 /* AppSDKConfigHelper.swift in Sources */,
+				C1AA0213200C972B00039585 /* LineItemView.swift in Sources */,
+				C1AA0212200C972B00039585 /* LineItemCell.swift in Sources */,
+				C1AA01CF200C4A0E00039585 /* ALMacro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +1007,7 @@
 			baseConfigurationReference = 8F095C68C9972401AB41612F /* Pods-AJPlusOCR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A44TJ86VM;
 				INFOPLIST_FILE = AJPlusOCR/Info.plist;
@@ -719,6 +1015,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anji.plus.AJPlusOCR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AJPlusOCR/Common/AJPlusOCR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -729,6 +1027,7 @@
 			baseConfigurationReference = 201E4308A20B583E58BBE2A8 /* Pods-AJPlusOCR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A44TJ86VM;
 				INFOPLIST_FILE = AJPlusOCR/Info.plist;
@@ -736,6 +1035,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anji.plus.AJPlusOCR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AJPlusOCR/Common/AJPlusOCR-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

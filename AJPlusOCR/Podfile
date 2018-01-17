@@ -12,11 +12,11 @@ pod 'SnapKit', '4.0.0’
 pod 'SwiftyJSON', '4.0.0'
 #json转model
 pod 'HandyJSON', '4.0.0-beta.1'
-#pod 'FDFullscreenPopGesture'
-#pod 'MBProgressHUD'
+pod 'SHFullscreenPopGestureSwift', '~> 1.2.1'
+pod 'MBProgressHUD'
 #图片浏览器
 #数据库
-#pod 'RealmSwift', '3.0.2'
+pod 'RealmSwift', '3.0.2'
 #图片选择器
 #pod 'LLPhotoBrowser', '~> 1.0.5'
 #友盟统计
